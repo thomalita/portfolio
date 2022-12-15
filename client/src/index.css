@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.nav {
+  background-color: rgb(152, 122, 160);
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.homepage {
+  text-align: center;
+  background-image: url('https://cdn.wallpapersafari.com/96/2/BaoiEy.jpg');
+  height: 100vh;
+  object-fit: fill;
+  margin: 0;
+}
+
+.myImage {
+  height: 100px;
+  width: 90px;
+  border: solid 10px rgb(152, 122, 160);
+  border-radius: 1em;
+  background-color: rgb(201, 174, 208);
+}
+
+.statement {
+  border: solid 10px rgb(152, 122, 160);
+  border-radius: 1em;
+  background-color: rgb(201, 174, 208);
+}
+
+.about-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
